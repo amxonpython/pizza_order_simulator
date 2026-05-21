@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Product_list {
     public static String buy = "non";
     static int quantity = 3;
-    static public int full_id_goods = 3;
+    static public int full_id_goods = 2;
     public static boolean statys = false;
 
     public static int Purchase_ID = -1;
