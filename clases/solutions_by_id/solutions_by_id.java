@@ -1,9 +1,6 @@
 package clases.solutions_by_id;
 
-import clases.commands;
-
 import clases.Product_list;
-
 import java.util.Scanner;
 
 public class solutions_by_id {
@@ -15,10 +12,6 @@ public class solutions_by_id {
         choice = scanner.nextInt();
 
         Product_list.Product_selection(choice);
-
-    }
-
-    public static void purchase(){
 
     }
 }
