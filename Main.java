@@ -11,9 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         boolean working = true;
-
         String action;
-        int id_action = 0;
 
         while (working){
 
