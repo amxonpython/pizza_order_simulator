@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Product_list {
     public static String buy = "non";
     static int quantity = 3;
-    static int full_id_goods = 3;
+    static public int full_id_goods = 3;
+    public static boolean statys = false;
 
     public static int Purchase_ID = -1;
 
@@ -21,7 +22,7 @@ public class Product_list {
         System.out.println();
     }
     public static void Product_selection(int args){
-        if (args > 0 && args <= full_id_goods){
+        if (args >= 0 && args <= full_id_goods){
             Scanner scanner = new Scanner(System.in);
             System.out.println("хотите ли вы заказать " + name_product[args] + " за " + price[args]);
             System.out.println("y/n");
@@ -41,5 +42,8 @@ public class Product_list {
             }
 
         }
+    }
+    public static void sbros_statys(){
+        Product_list.statys = false;
     }
 }
